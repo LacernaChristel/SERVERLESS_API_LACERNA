@@ -20,10 +20,6 @@ mongoose
   .then(() => console.log('Connected to MongoDB'))
   .catch((error) => console.error('Failed to connect to MongoDB:', error));
   
-  const port = process.env.PORT || 3000;
-  app.listen(port, () =>
-    console.log(`Listening on port http://localhost:${port}`)
-  );
 
 app.use('/.netlify/functions/api', router);
 module.exports.handler = serverless(app);
