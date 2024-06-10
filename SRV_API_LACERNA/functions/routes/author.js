@@ -1,6 +1,5 @@
 const express = require('express');
-const AuthorModel = require('../models/author');
-
+const InventoryItemModel = require('../models/author');
 const router = express.Router();
 
 // GET all authors
