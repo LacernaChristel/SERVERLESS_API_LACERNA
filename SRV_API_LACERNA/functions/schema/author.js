@@ -16,4 +16,4 @@ const inventorySchema = new Schema({
 });
 
 
-module.exports =authorSchema;
+module.exports =inventorySchema;
